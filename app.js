@@ -44,10 +44,10 @@ app.get("/html", function(req,res){
         //res.type('application/json');
         //res.json({'name': 'S. Legah'});
         res.send({
-		'name': 'Landmark Technologies',
+		'name': 'Cloud Commandos',
 		'technology': 'DevOps',
 		'contact' : '+14372152483',
-		'email': 'info@mylandmarktech.com'
+		'email': 'info@Cloudcommandos.com'
 	            });
         
         });
@@ -70,12 +70,12 @@ app.get("/status-code-500", function(req, res) {
 
 app.get('/redirect', function(req, res) {
     //Send status 300
-        res.redirect('http://mylandmarktech.com');
+        res.redirect('http://cloudcommands.com');
     });
     
  
     app.listen(app.get('port'), function() {
-        console.log("Node JS app is running at http://localhost:" + app.get('port') +"/landmarktechnologies");
+        console.log("Node JS app is running at http://localhost:" + app.get('port') +"/cloudcommandos");
       })
     
 
